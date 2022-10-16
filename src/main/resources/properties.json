@@ -1,0 +1,19 @@
+{
+  "cities" : [
+    "ADANA",
+    "ANKARA",
+    "ISTANBUL",
+    "IZMIR",
+    "MERSIN",
+    "HAKKARI"
+  ],
+  "languages": [
+    "TR",
+    "EN"
+  ],
+  "units": [
+    "METRIC",
+    "STANDART",
+    "IMPERIAL"
+  ]
+}
