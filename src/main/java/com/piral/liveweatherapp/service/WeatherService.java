@@ -62,7 +62,7 @@ public class WeatherService extends RestService {
             simpUsers.forEach(user -> {
                 WeatherMessageDto weatherMessageDto = getMessage(user.getName());
                 if (weatherMessageDto != null) {
-                    messagingTemplate.convertAndSendToUser(user.getName(), "/user/topic/user-messages", weatherMessageDto);
+                    messagingTemplate.convertAndSendToUser(user.getName(), "/topic/user-messages", weatherMessageDto);
                 }
             });
         }
